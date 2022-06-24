@@ -188,7 +188,7 @@
     
       </script>
       <script> AOS.init({once: true, });</script>
-      <script> var audio = document.querySelector(".audio"); if (musik) {audio.src = musik;} function mulai() {audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; setTimeout(function () {document.querySelector(".open").style.display = "none";}, 1000);} function wa(isi) {window.open("https://wa.me/6281282391313?text=aku%20mau%20kita " + isi);} async function tanya() {var {value: gatau} = await swal.fire({title: "apakah kamu setuju", input: "text", showCancelButton: false, }); if (gatau) {await swal.fire("Kirim jawabannya ke wa aku ya, kalo kamu mau kita gimana?"); wa(gatau);} else {await swal.fire("Jangan dikosongin dong"); tanya();} }</script>
+      <script> var audio = document.querySelector(".audio"); if (musik) {audio.src = musik;} function mulai() {audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; setTimeout(function () {document.querySelector(".open").style.display = "none";}, 1000);} function wa(isi) {window.open("https://wa.me/6281282391313?text=aku%20mau%20kalo%20kita " + isi);} async function tanya() {var {value: gatau} = await swal.fire({title: "kalo kamu mau kita gimana?", input: "text", showCancelButton: false, }); if (gatau) {await swal.fire("Kirim jawabannya ke wa saya ya"); wa(gatau);} else {await swal.fire("Jangan dikosongin dong"); tanya();} }</script>
       <p class="wm"><span><a href="https://www.instagram.com/aris_najmi/">@aris_najmi</a></span></p>
     </body>
     
